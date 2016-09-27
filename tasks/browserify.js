@@ -96,7 +96,7 @@ gulp.task('browserify', function () {
     }))
     .pipe(plugins.size({
       showFiles: true,
-      gzip: true
+      gzip: false
     }))
     ;
 });
