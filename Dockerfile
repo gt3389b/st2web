@@ -1,4 +1,4 @@
-FROM node:0.10.46-wheezy
+FROM node:4.5.0-wheezy
 LABEL com.stackstorm.service.provides="web"
 
 RUN apt-get update && apt-get install -y vim && rm -rf /var/lib/apt/lists/*
